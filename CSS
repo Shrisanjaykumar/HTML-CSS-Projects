@@ -1,0 +1,134 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+.container {
+    /* border: 1px solid #000000;
+    */ display:flex;
+}
+.leftbox{
+    background-color:#0e0c0c;
+    width:260px;
+    padding:3px;
+}
+.rightbox {
+    background-color: #ffff;
+    width:100%;
+    padding:3px;
+}
+.user-image{
+    width:200px;
+    height:200px;
+    border-radius:100%;
+}
+.name-con {
+    /* border: 1px solid #000000;
+    */ margin-top:80px;
+}
+    .name-con h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform:uppercase;
+        font-size:40px;
+
+    }
+    .name-con h5 {
+       
+        text-transform: uppercase;
+        font-size: 20px;
+    }
+.left-site-box {
+    /*border: 1px solid #ffff;
+    */ color: #ffff;
+    margin-top: 30px;
+}
+    .left-site-box h4 {
+        text-transform: uppercase;
+        border-bottom: 1px solid #ffff;
+        font-size: 20px;
+        padding-bottom: 8px;
+        margin-bottom: 10px;
+        font-family: 'Roboto', sans-serif;
+    }
+.Contact-sup-con {
+    /* border: 1px solid #ffff;
+    */ display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+}
+    .Contact-sup-con .icon-con{
+        width:25px;
+        line-height:20px;
+        text-align:center;
+    }
+    .Contact-sup-con .text-con  h5 {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    .Contact-sup-con .text-con p {
+        font-size: 12px;
+    }
+.skills-sup-con h5{
+    text-transform:uppercase;
+    margin-top:10px;
+}
+.per-con {
+    border: 1px solid #ffff;
+    height: 10px;
+    margin-top: 7px;
+    background-color: #808080;
+}
+.per{
+    background-color:#fff;
+    width:80%;
+    height:9px;
+}
+.follow-sup-con h5 {
+    font-size:15px;
+  
+}
+.follow-sup-con p {
+    margin-bottom: 7px;
+}
+.right-site-title {
+    border-bottom:2px solid #808080;
+    display: flex;
+    margin-top:25px;
+    padding-bottom:7px;
+    margin-bottom:10px;
+}
+    .right-site-title .icon-con {
+        width: 30px;
+        height: 30px;
+
+        text-align: center;
+        line-height: 30px;
+        background-color: #0e0c0c;
+        border-radius:100%;
+        color:#ffff;
+    }
+    .right-site-title h3 {
+        line-height: 30px;
+        padding-left:10px;
+        text-transform:uppercase;
+    }
+.rigkt-site-con .desc{
+
+}
+.rigkt-site-con{
+    display:flex;
+
+}
+    .rigkt-site-con .years{
+        font-weight:bold;
+        width:5%;
+    }
+    .rigkt-site-con .desc-title{
+        font-weight:bold;
+        text-transform:uppercase;
+        padding-bottom:5px;
+    }
+.references-con .ref-sub{
+    padding-left:5%;
+    margin-top:1%;
+}
