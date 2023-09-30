@@ -1,0 +1,226 @@
+Resume using HTML and CSS
+index.html
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>MY CV</title>
+    <link rel="stylesheet" href="StyleSheet1.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icons/css/all.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div class="container">
+        <div class="leftbox">
+            <img class="user-image" src="C:\Users\ASUS\Desktop\html\New folder (2)CV\IMG20230901225043.jpg" />
+            <div class="Contact left-site-box">
+                <h4>Contact Me</h4>
+                <div class="Contact-sup-con">
+                    <div class="icon-con">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                    <div class="text-con">
+                        <h5>Address</h5>
+                        <p>2/637,Kasimariyur,<br />Sankeri,<br />Salem,<br />TamilNadu,<br />India.</p>
+                    </div>
+                </div>
+                <div class="Contact-sup-con">
+                    <div class="icon-con">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div class="text-con">
+                        <h5>Phone</h5>
+                        <p>8270798147, <br /> 8344554687.</p>
+                    </div>
+                </div>
+                <div class="Contact-sup-con">
+                    <div class="icon-con">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <div class="text-con">
+                        <h5>Web</h5>
+                        <p>shrisanjaykumarku@gmail.com, <br /> github.com.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="Skills left-site-box">
+                <h4>Pro Skills</h4>
+                <div class="skills-sup-con">
+                    <h5>C#</h5>
+                    <div class="per-con">
+                        <div class="per">
+                        </div>
+                    </div>
+                    <h5>Java</h5>
+                    <div class="per-con">
+                        <div class="per">
+                        </div>
+                    </div>
+                    <h5>html,css</h5>
+                    <div class="per-con">
+                        <div class="per">
+                        </div>
+                    </div>
+                    <h5>JS</h5>
+                    <div class="per-con">
+                        <div class="per">
+                        </div>
+                    </div>
+                    <h5>Python</h5>
+                    <div class="per-con">
+                        <div class="per">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="follow-up left-site-box">
+                <h4>Follow Me</h4>
+                <div class="follow-sup-con">
+                    <h5>X</h5>
+                    <p>sanjayku.x/san</p>
+                    <h5>Linkedin</h5>
+                    <p>shrisanjay.com/link</p>
+                    <h5>Threds</h5>
+                    <p>sanjay.com/threads</p>
+                </div>
+            </div>
+         </div>
+            <div class="rightbox">
+                <div class="name-con">
+                    <h2>Sanjay Kumar K U</h2>
+                    <h5>Fresher</h5>
+
+                    <div class="right-site-title">
+                        <div class="icon-con">
+                            <i class="fa-solid fa-user"></i>
+                        </div>
+                        <h3>Carrer Objective</h3>
+                    </div>
+                    <div class="rigkt-site-con">
+                        <div class=" years">
+
+                        </div>
+                        <div class="desc">
+                            <div class="desc-title">
+
+                            </div>
+                            <p>To pursue a job opportunity in a competitive environment that will challenge me to push my boundaries and expand my knowledge in the field of computer science while allowing me to add value to the dynamics of the company.</p>
+                        </div>
+                    </div>
+
+                    <div class="right-site-title">
+                        <div class="icon-con">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <h3>Educational Qualification</h3>
+                    </div>
+                    <div class="rigkt-site-con">
+                        <div class=" years">
+                            2016 <br />
+                            VMS
+                        </div>
+                        <div class="desc">
+                            <div class="desc-title">
+                                SSLC
+                            </div>
+                            <p>88%</p>
+                        </div>
+                    </div>
+
+                    <div class="rigkt-site-con">
+                        <div class=" years">
+                            2018 <br />
+                            VMS
+                        </div>
+                        <div class="desc">
+                            <div class="desc-title">
+                                HSC
+                            </div>
+                            <p>85%</p>
+                        </div>
+                    </div>
+                    <div class="rigkt-site-con">
+                        <div class=" years">
+                            2023 <br />
+                            GCE
+                        </div>
+                        <div class="desc">
+                            <div class="desc-title">
+                                BE-CSE
+                            </div>
+                            <p>74%</p>
+                        </div>
+                    </div>
+
+                    <div class="right-site-title">
+                        <div class="icon-con">
+                            <i class="fa-solid fa-computer"></i>
+                        </div>
+                        <h3>Projects</h3>
+                    </div>
+                    <div class="rigkt-site-con">
+                        <div class=" years">
+
+                        </div>
+                        <div class="desc">
+                            <div class="desc-title">
+                                B.E-Final year Project
+                            </div>
+                            <p>Diabetic Retinopathy Detection using Deel Learning</p>
+                        </div>
+                    </div>
+                    <div class="rigkt-site-con">
+                        <div class=" years">
+
+                        </div>
+                        <div class="desc">
+                            <div class="desc-title">
+                                B.E-Mini Project
+                            </div>
+                            <p>Ping Pong Game Developement Using Python</p>
+                        </div>
+                    </div>
+
+                    <div class="right-site-title">
+                        <div class="icon-con">
+                            <i class="fa-solid fa-industry"></i>
+                        </div>
+                        <h3>Interships</h3>
+                    </div>
+                    <div class="rigkt-site-con">
+                        <div class=" years">
+
+                        </div>
+                        <div class="desc">
+                            <div class="desc-title">
+                                NSIC-(National Small Industries Corparation)
+                            </div>
+                            <p>Web Development Programming Intership(Augst-2022)</p>
+                        </div>
+                    </div>
+
+
+                    <div class="right-site-title">
+                        <div class="icon-con">
+                            <i class="fa-solid fa-pen"></i>
+                        </div>
+                        <h3>Declaration</h3>
+                    </div>
+                    <div class="references-con">
+                        <div class="ref-sub">
+                            <p> I hereby declare that all the information given above is true and correct to the best of my knowledge. All the information shared in the resume is correct, and I take full responsibility for its correctness. I solemnly declare that the information in this resume is true to the best of my knowledge and belief.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+</body>
+</html>
